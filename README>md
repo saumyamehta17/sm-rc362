@@ -1,0 +1,43 @@
+Railscast sm-rc362
+===================
+Exporting csv and xls
+-----------------------
+
+git clone
+```
+git clone https://github.com/sweetymehta/sm-rc362.git
+```
+database setup
+```
+rake db:create
+rake db:migrate
+rails g bootstrap:install
+rails g simple_form:install
+rake db:seed
+```
+scaffold
+```
+#todo
+rake db:migrate
+rails g bootstrap:themed orders -f
+````
+csv is part of standard library in rails
+```
+in application.rb
+require 'csv'
+```
+Define format in controller
+```
+respond_to do |format|
+  format.csv {render text: Order.to_csv}
+  # see ordercontroller for xls
+end
+```
+Now for xls
+```
+include MimeType in intializer/mime_types.rb
+```
+Make availble download link for csv and xls
+```
+see orders/index.html.erb
+```
