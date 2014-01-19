@@ -23,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="825">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,10 +70,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README&gt;md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README&gt;md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README&gt;md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="110" selection-end="110" vertical-scroll-proportion="0.1699029" vertical-offset="0" max-vertical-offset="720">
+            <state line="7" column="10" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="0" selection-start="697" selection-end="697" vertical-scroll-proportion="0.84951454" vertical-offset="0" max-vertical-offset="618">
               <folding />
             </state>
           </provider>
@@ -135,6 +135,7 @@
         <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/orders/index.html.erb" />
         <option value="$PROJECT_DIR$/README&gt;md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -516,7 +517,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README&gt;md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="110" selection-end="110" vertical-scroll-proportion="0.1699029" vertical-offset="0" max-vertical-offset="720">
+        <state line="7" column="10" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="697" selection-end="697" vertical-scroll-proportion="0.84951454" vertical-offset="0" max-vertical-offset="618">
           <folding />
         </state>
       </provider>
